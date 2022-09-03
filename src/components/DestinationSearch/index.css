@@ -1,0 +1,57 @@
+/* Write your CSS here */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+.destinationSearch {
+  text-align: center;
+}
+
+input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f1f5f9;
+  color: gray;
+  width: 100%;
+  z-index: 999;
+}
+
+.inputField {
+  text-align: center;
+  background-color: black;
+  position: relative;
+  width: 30vw;
+  border-radius: 10px;
+  
+}
+
+.inputField > img {
+  position: absolute;
+  width: 25px;
+  right: 2%;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+/* .cards{
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+} */
+.items-card{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    margin-top: 0;
+}
